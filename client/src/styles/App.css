@@ -1,0 +1,44 @@
+body {
+  @apply bg-gray-100 text-gray-800 font-sans;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  @apply font-bold;
+}
+
+.navbar {
+  @apply bg-blue-600 text-white p-4;
+}
+
+.dashboard {
+  @apply p-6;
+}
+
+.card {
+  @apply bg-white shadow-md rounded-lg p-4 mb-4;
+}
+
+.card-title {
+  @apply text-lg font-semibold;
+}
+
+.card-content {
+  @apply text-sm text-gray-600;
+}
+
+.footer {
+  @apply bg-gray-800 text-white text-center p-4 mt-6;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
